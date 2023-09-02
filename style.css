@@ -1,0 +1,774 @@
+*
+{
+    font-family: segoe ui light;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+
+.home{
+    background-image: url(img/slider/slider-01.jpg);
+    background-size:100% 100%;
+    width: 100%;
+    height: 800px;
+    overflow: auto;
+
+}
+
+.rgba{
+    background-color: rgba(0,0,0,.8);
+    height: 800px;
+    overflow: auto;
+}
+.navbar{
+    width: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+
+.logo a{
+    text-decoration: none;
+    color: #ff305b;
+    font-size: 25px;
+    position: relative;
+    left: 100px;
+    float: left;
+
+
+}
+.navlist{
+    position: relative;
+}
+
+.navlist ul {
+    position: absolute;
+    right: 100px;
+
+
+
+}
+.navlist ul li{
+    float: left;
+    padding-left: 20px;
+    list-style-type: none;
+
+}
+.navlist ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    transition: .5s color;
+}
+.navlist ul li a:hover{
+    color: #ff305b;
+}
+
+.navlist .red{
+    color: #ff305b;
+
+}
+.rgba .caption{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    width: 100%;
+}
+.rgba .caption h1{
+    color: #ff305b;
+    font-size: 70px;
+    margin: 10px 0 10px;
+
+}
+
+.rgba .caption h3{
+font-size: 24px;
+
+
+}
+.rgba .caption h4{
+    font-size: 26px;
+    position: relative;
+}
+.after{
+    position: relative;
+}
+.rgba .caption .after::after{
+    content: "";
+    background-color:#fff;
+    width: 3px;
+    height: 34px;
+    position: absolute;
+    right: 39%;
+    top: 0;
+
+}
+
+
+
+
+.attach{
+    position: relative;
+    width: 25%;
+    height: 60% ;
+    left: 13%;
+    top: 100px;
+    border: solid 6px black;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.attach img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+    top: 5%;
+    border-radius: 4px;
+}
+
+
+.layer{
+
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+    top: 105% ;
+    transition: .5s all;
+    border-radius: 4px;
+    visibility: hidden;
+    overflow: hidden;
+}
+.attach .img:hover .layer{
+    top: 5%;
+    visibility: visible;
+}
+.layer a {
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    transition: .4s color;
+    overflow: hidden;
+
+}
+.layer ul{
+
+    list-style-type: none;
+    position: relative;
+    top: 50%;
+    left: 30%;
+
+}
+.layer a:hover {
+    color: #ff305b;
+}
+.hello{
+    position: relative;
+}
+
+
+.hello .about{
+    color: black;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+    margin-bottom:20px ;
+
+
+
+}
+
+.about h2{
+    position: relative;
+    padding: 10px;
+    font-size: 34px;
+}
+.about h2::before{
+    content: "";
+    width: 6px;
+    height: 40px;
+    background-color: #ff305b;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.about p {
+    color:rgb(85, 85, 85);
+    border-bottom: dashed 2px rgb(153, 153, 153);
+    font-size: 20px;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.about ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+.about span {
+    font-weight: 600;
+}
+.about ul li {
+    float: left;
+    width: 40%;
+}
+.about ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.about ul li a:hover {
+    background-color: #ff305b;
+  }
+.about .download{
+    float: left;
+    width: 100%;
+
+    padding: 15px;
+
+}
+.about .download .first{
+    color: #fff;
+    background-color: #ff305b;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .5s all ;
+}
+.about .download .second {
+    color: #fff;
+    background-color: #ff305b;
+    margin-right: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+    transition: .5s all;
+
+}
+
+.about .download .first:hover  {
+    background-color: rgb(255, 81, 0);
+    text-decoration: none;
+
+}
+
+.about .download .second:hover  {
+    background-color: rgb(255, 81, 0);
+
+}
+
+
+.services{
+    background-color: #f1f1f1;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.services .lines{
+    color: #555555;
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+}
+ .services .lines::before{
+    content: "";
+    background-color: #f1f1f1;
+    width: 100px;
+    border-bottom: 1px solid #ff305b  ;
+    border-top: 1px solid #ff305b;
+    height: 15px;
+    position: absolute;
+    left: 48%;
+    top: 100%;
+
+
+
+
+}
+.services .lines::after{
+    content: "";
+    background-color: #ff305b;
+    width: 180px;
+    height:1px;
+    position: absolute;
+    left: 45%;
+    top: 115%;
+
+
+
+}
+.fourdiv{
+    background-color: #f1f1f1;
+    padding-top: 40px;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+.fourdiv .content{
+    width: 33%;
+    float: left;
+    padding-bottom: 50px;
+    transition: .5s all;
+    margin-bottom: 40px;
+
+}
+.fourdiv .content h2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fourdiv .content:hover {
+    background-color: #fff;
+}
+
+.portfolio{
+    padding: 50px 0;
+    overflow: auto;
+    text-align: center;
+}
+.portfolio .test {
+    position: relative;
+    overflow: auto;
+
+}
+.portfolio  h2
+{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.portfolio h2::before{
+    content: "";
+    width: 100px;
+    border-bottom: 1px solid #ff305b  ;
+    border-top: 1px solid #ff305b;
+    height: 15px;
+    position: absolute;
+    top: 100%;
+    left: 47%;
+
+}
+.portfolio h2::after {
+    content: "";
+    background-color: #ff305b;
+    width: 180px;
+    height:1px;
+    position: absolute;
+    top: 115%;
+    left: 44%;
+
+
+
+}
+.row{
+    margin-bottom: 40px;
+}
+.row a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 22px;
+    color: black ;
+}
+.row .red {
+    color: #ff305b;
+}
+.sixphoto{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+
+}
+
+.sixphoto .one {
+    padding: 20px;
+    width: 45%;
+    float: left;
+    overflow: auto;
+
+
+
+
+}
+.sixphoto .one img{
+    background-color: rgba(0,0,0,1);
+
+    width: 100%;
+
+}
+.bord{
+    position: relative;
+}
+.back{
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s all;
+}
+.one .bord:hover .back{
+    opacity: 1;
+}
+.fourlogo{
+    background-color: #f1f1f1;
+    padding: 50px 0;
+
+    text-align: center;
+}
+.container{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+
+}
+.column{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+.column h3{
+    font-size: 26px;
+}
+.column h5{
+    font-size: 16px;
+}
+.client{
+    padding: 50px 0;
+    margin-bottom: 50px;
+
+}
+.client .text{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+ .client .text h2{
+     font-size: 40px;
+     font-weight: 800;
+     margin-bottom: 40px;
+     position: relative;
+
+ }
+
+ .client .text h2::before{
+     content: "";
+     border-bottom: 1px solid #ff305b  ;
+     border-top: 1px solid #ff305b;
+     height: 15px;
+     width: 150px;
+     position: absolute;
+     left: 45%;
+     top: 100%;
+
+ }
+ .client .text h2::after{
+    content: "";
+    background-color: #ff305b;
+    height: 1px;
+    width: 200px;
+    position: absolute;
+    left: 44%;
+    top: 115%;
+
+
+ }
+ .client .all {
+    background-color: #f1f1f1;
+    overflow: auto;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+    border-radius: 4px;
+
+ }
+ .client .all .img{
+     float: left;
+     padding-right: 20px;
+     padding-left: 50px;
+     padding-top: 40px;
+
+ }
+ .client .all .img img{
+    border-radius: 50%;
+    width: 100%;
+
+ }
+ .alex h3{
+     font-size: 26px;
+ }
+ .client .alex{
+
+     width: 60%;
+     float: left;
+     padding-top: 40px;
+ }
+ .client .alex a{
+     text-decoration: none;
+     color: black;
+ }
+ .all .triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 200px 200px 0 0;
+    border-color: #ff053b transparent transparent transparent;
+
+
+ }
+ .blogs{
+     background-color: #f1f1f1;
+     overflow: hidden;
+     padding: 70px 0;
+ }
+ .blogs .headline{
+     padding: 20px;
+ }
+ .blogs .headline h2{
+     font-size: 40px;
+     font-weight: 800;
+     text-align: center;
+     position: relative;
+     padding-bottom: 10px;
+
+ }
+ .blogs .headline h2::before{
+    content: "";
+    border-bottom: 1px solid #ff305b  ;
+    border-top: 1px solid #ff305b;
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    left: 45%;
+    top: 100%;
+
+
+ }
+ .blogs .headline h2::after{
+    content: "";
+    background-color: #ff305b;
+    height: 2px;
+    width: 200px;
+    position: absolute;
+    left: 43%;
+    top: 115%;
+
+
+
+ }
+ .blogs .threeblog{
+     width: 80%;
+     margin: auto;
+     overflow: auto;
+     padding-top: 40px;
+ }
+ .threeblog .pad{
+     float: left;
+     width: 32.33%;
+
+     padding-left: 30px;
+ }
+ .pad .container{
+     width: 100%;
+    padding-left: 10px;
+
+ }
+ .pad iframe{
+     width: 100%;
+ }
+ .blogs .oneblog{
+     background-color: #fff;
+     float: left;
+     padding-bottom: 10px;
+
+ }
+ .blogs .oneblog img{
+     width: 100%;
+
+ }
+ .blogs .oneblog h5{
+     padding-bottom: 20px;
+     padding-top: 20px;
+ }
+ .blogs .oneblog p{
+     padding: 10px 0;
+ }
+ .blogs .oneblog a{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+     font-weight: 800;
+     transition: .3s color;
+ }
+ .blogs .oneblog a:hover{
+     color: #ff053b;
+ }
+ .contact h2{
+     font-size: 40px;
+     font-weight: 800;
+     text-align: center;
+     position: relative;
+ }
+
+ .contact h2::before{
+    content: "";
+    border-bottom: 1px solid #ff305b  ;
+    border-top: 1px solid #ff305b;
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    left: 45%;
+    top: 100%;
+
+
+ }
+ .contact h2::after{
+    content: "";
+    background-color: #ff305b;
+    height: 2px;
+    width: 200px;
+    position: absolute;
+    left: 43%;
+    top: 115%;
+
+
+
+ }
+ .contact .control{
+     padding-top: 40px;
+     overflow: auto;
+     width: 60%;
+     margin: auto;
+ }
+ .contact .name{
+     float: left;
+     width: 50%;
+     padding-right: 20px;
+ }
+ .contact .name input {
+     width: 100%;
+     border: #ac3851 1px solid;
+     border-radius: 3px;
+     padding-left: 5px;
+     height: 40px;
+ }
+ .contact .subject{
+     padding:40px 0;
+     padding-right: 20px;
+
+ }
+ .contact .subject input {
+    width: 100%;
+    border: #ac3851 1px solid;
+    border-radius: 3px;
+    padding-left: 5px;
+    height: 40px;
+
+ }
+ .contact .area{
+     padding-bottom: 40px;
+     padding-right: 20px;
+
+ }
+ .contact .area textarea{
+    width: 100%;
+    border: #ac3851 1px solid;
+    border-radius: 3px;
+    padding-left: 5px;
+ }
+ .contact .btn{
+     padding-bottom: 70px;
+ }
+ .contact .btn input{
+     background-color: #ff305b;
+     border-radius: 3px;
+     border: 0;
+     padding: 10px 30px;
+     color: #fff;
+     font-size: 18px;
+     transition: .3s all;
+
+ }
+ .contact .btn input:hover{
+    background-color: #ff053b   ;
+
+ }
+ .last{
+     text-align: center;
+     overflow: auto;
+     background-color: #333333;
+     padding-bottom: 50px;
+ }
+ .last a{
+     text-decoration: none;
+ }
+ .last .icon {
+     text-align: center;
+     overflow: auto;
+     width: 70%;
+     margin: auto;
+     padding-top: 50px;
+     text-decoration: none;
+ }
+ .last .icon img{
+     padding-right: 20px;
+ }
+
+
+ }
+ .last .icon a{
+     text-decoration: none;
+     width: 25%;
+
+ }
+
+ .copyright  p{
+     color: #fff;
+ }
+.copyright p a{
+    color: #ff305b;
+    border-bottom: none;
+    transition: .3s all;
+
+}
+.copyright p a:hover{
+    border-bottom: #ff305b 1px solid;
+
+}
+/* whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
